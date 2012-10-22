@@ -1,20 +1,62 @@
 @charset "utf-8";
 
 /*!
- * Structure & Basic Styles
+ * Styles
  * 
  * 
  */
 
 
 /**
- * Structure
+ * Micro clearfix
  */
+ 
+.cf { zoom: 1;}
+.cf:before, cf:after { content: ""; display: table;}
+.cf:after { clear: both;}
+
+
+
+/**
+ * 必要要素の初期値
+ */
+
+body {
+	width: 100%;
+	margin: 1em 0;
+	padding: 0;
+	color: #222;
+	font-family: sans-serif;
+}
+
+a {
+	text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin: 0 0 0.5em;
+	line-height: 1.1;
+	font-family: "Hiragino Mincho Pro", "Hiragino Mincho ProN", serif;
+	letter-spacing: -1px;
+}
+
+p {
+	margin: 0 0 1em;
+	line-height: 1.4;
+	color: #333;
+	text-align: justify;
+}
+
+ul {
+	margin: 0 0 2em;
+	padding: 0;
+	list-style-position: inside;
+}
+
 
 html, body {
 	/* メイン背景・文字色 */
 }
-
 
 body {
 }
