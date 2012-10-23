@@ -11,37 +11,41 @@
  * Basic Styles
  */
 
-#document {
-	margin: 0 auto;
-	width: 95%;
-}
-
-
-header {
-	width: 100%;
-}
-
 nav {
 	margin: 0;
-	width: 100%;
+	padding: 0 0 0 6%;
+	background-color: #000;
 }
 
-#base-main {
-	margin: 2em 0 1em;
+nav ul.nav-list {
+	padding: 1px 0;
+}
+
+nav li.nav-item {
+	float: left;
+	width: 100px;
+	margin: 0;
+	text-align: center;
+	line-height: 2.5em;
+	border-left: 1px solid #333;
+	border-right: 1px solid #222;
+	border-bottom: none;
+}
+
+nav li.nav-item {
+	display: block;
 }
 
 article.main-contents {
+	width: 64%;
 	float: left;
-	width: 65%;
-	margin-right: 5%;
 }
 
 aside.main-side {
-	float: right;
 	width: 30%;
+	float: right;
 }
 
-footer {
-	width: 100%;
-	text-align: center;
+aside.main-side ul li {
+	font-size: 1em;
 }
